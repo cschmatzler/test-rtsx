@@ -1,0 +1,8 @@
+[tracing]
+enable = false
+endpoint = ""
+service_name = "anthill"
+api_key = ""
+
+[database]
+url = "postgres://postgres:postgres@localhost:5432/postgres"

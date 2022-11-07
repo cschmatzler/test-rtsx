@@ -1,0 +1,15 @@
+{
+	"name": "anthill",
+	"version": "1.0.0",
+	"license": "MIT",
+	"devDependencies": {
+		"@playwright/test": "^1.27.1",
+		"prettier": "^2.7.1",
+		"tailwindcss": "^3.2.2"
+	},
+	"scripts": {
+		"format": "prettier --write .",
+		"build-css": "tailwindcss build -i ./src/css/tailwind.css -o ./_assets/styles.css --minify",
+		"acceptance-tests": "playwright test"
+	}
+}
